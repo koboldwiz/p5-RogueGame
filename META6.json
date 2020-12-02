@@ -1,0 +1,26 @@
+{
+        "perl" : "5.c",
+        "name" : "RogueGame",
+        "auth" : "CPAN:KOBOLDWIZ",
+        "api" : "1",
+        "version" : "0.1.10",
+        "description" : "small Rogue game library.",
+        "authors" : [ "Koboldwiz" ],
+        "license" : "BSD",
+        "provides" : {
+            "RogueGame::entity" : "lib/RogueGame/entity.pm",
+            "RogueGame::gargoyle" : "lib/RogueGame/gargoyle.pm",
+            "RogueGame::room" : "lib/RogueGame/room.pm",
+            "RogueGame::room1" : "lib/RogueGame/room1.pm",
+            "RogueGame::stateimagelibrary" : "lib/RogueGame/stateimagelibrary.pm"
+        },
+        "depends" : [ ],
+        "build-depends" : [ ],
+        "test-depends" : [ ],
+        "resources" : [ ],
+        "tags": [
+          "RogueGame"
+        ],
+        "source-url" : "http://cpan.metacpan.org/authors/id/K/KO/KOBOLDWIZ/Perl5/p5-RogueGame-0.1.10.tar.gz"
+
+}
